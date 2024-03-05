@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generador de Diplomas</title>
+</head>
+<body>
+    <h2>Registro de Estudiantes</h2>
+    <form action="guardar_estudiante.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br>
+        <label for="curso">Curso:</label>
+        <input type="text" id="curso" name="curso" required><br>
+        <label for="fecha_concurrencia">Fecha de Concurrencia:</label>
+        <input type="date" id="fecha_concurrencia" name="fecha_concurrencia" required><br>
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+index.html = Carga de titulos
+guardar_estudiante.php = Genera la carga de index.html
+
+tabla.php = Muestra todos los estudiantes y sus sertificados
+
+modificar_estudiante.php = Formulario de modificaciones
+actualizar_estudiante.php = actualiza con lo que se lleno en modificar_estudiante
+
+generar_diploma.php = Genera el diploma al presionar el boton en tabla.php
+
+
